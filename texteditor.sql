@@ -1,0 +1,14 @@
+DROP DATABASE IF EXISTS texteditor;
+CREATE DATABASE texteditor;
+USE texteditor;
+
+--
+-- Tabelle 'Blog'
+--
+
+CREATE TABLE blog (
+  id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  Article_title VARCHAR(255) NOT NULL UNIQUE,
+  Article_content TEXT NOT NULL UNIQUE,
+  Date_published DATETIME DEFAULT CURRENT_TIMESTAMP
+);

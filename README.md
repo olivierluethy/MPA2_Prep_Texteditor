@@ -1,4 +1,4 @@
-# Texteditor
+# MPA 2 Vorarbeit Texteditor
 Einen Texteditor mit PHP und dem MVC Pattern erstellen und Dokumentieren.
 
 ## Vorarbeit Aufgabenstellung
